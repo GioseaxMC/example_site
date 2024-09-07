@@ -1,16 +1,23 @@
 <root>
-    <page margins = "[5,5]" name = "Homepage" script="https://raw.githubusercontent.com/GioseaxMC/example_site/main/script.py"/>
+    <page margins = "[10,10]" name = "Domain register page" script="script.py"/>
     <h>
-        Example Page
+        Register Domains
     </h>
     <rh color="[60, 60, 60]"/>
     <p>
-        Nothing to see here lol, go somewhere else lil bro don make me angy ]:[
+        Add domain %script.spaces1% Edit domain %script.spaces2% Remove domain
     </p>
+    <newline/>
+    <input id="add_domain" width = "32"> Domain: (i.e.) skibidi.rizz </input> <input id="edit_key" width = "32" margins = "[100, 0]"> Key (i.e.) 4nwOHk87ee34riZZ... </input> <input id="rem_key" width="10"> Key (i.e.) 4nwOHk87ee34riZZ... </input>
+    <newline/>
+    <input id="add_ip" width = "32"> Ip: (i.e.) raw.github.SkiBi... </input> <input id="edit_ip" width = "32" margins = "[100, 0]"> Ip: (i.e.) raw.github.SkiBi... </input>
+    <newline/>
+    <button id="add_done" function="getall"> Done! </button> <button id="edit_done" function="getall" margins = "[362, 0]"> Done! </button> <button id="rem_done" function="getall"> Done! </button>
+    
     <rh color="[60, 60, 60]"/> <br/>
-    <p>
-        Heres a random number: - %script.random% -
-    </p>
+
+    <p color = "[50, 255, 50]"> %script.done% </p>
+    <p color = "[255, 50, 50]"> %script.error% </p>
     <rh color="[60, 60, 60]"/> <br/>
     <button function="load" args="homepage.rizz"> Homepage </button>
 </root>
