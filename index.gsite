@@ -1,0 +1,10 @@
+<root>
+    <page margins = "[5,5]" name = "Homepage"/>
+    <h>
+        Example Page
+    </h>
+    <rh color="[60, 60, 60]"/>
+    <p>
+        Nothing to see here lol, go somewhere else lil bro don make me angy ]:[
+    </p>
+</root>
