@@ -9,7 +9,7 @@
     </p>
     <rh color="[60, 60, 60]"/> <br/>
     <p>
-        Heres a random number %script.random%
+        Heres a random number: - %script.random% -
     </p>
     <rh color="[60, 60, 60]"/> <br/>
     <button function="load" args="homepage.rizz"> Homepage </button>
