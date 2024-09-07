@@ -9,7 +9,6 @@
     </p>
     <rh color="[60, 60, 60]"/> <br/>
     <image link="https://miro.medium.com/v2/resize:fit:1400/0*mD7F8b6gIjsq3gsi" scale="0.2" margins = "[0, 5]" />
-    <rh color="[60, 60, 60]"/>
-    <br/>
+    <rh color="[60, 60, 60]"/> <br/>
     <button function="load" args="homepage.rizz"> Homepage </button>
 </root>
