@@ -1,5 +1,5 @@
 <root>
-    <page margins = "[5,5]" name = "Homepage"/>
+    <page margins = "[5,5]" name = "Homepage" script="https://raw.githubusercontent.com/GioseaxMC/example_site/main/script.py"/>
     <h>
         Example Page
     </h>
