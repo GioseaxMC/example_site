@@ -2,7 +2,7 @@
 
     <page margins = "[250, 100]" script="https://raw.githubusercontent.com/GioseaxMC/example_site/main/home_page/script.py" name = "Homepage"/>
     <h font = "consolas" scale ="125">
-        Welcome!
+        %script.display%
     </h>
     <rh color = "[60, 60, 60]"/>
     <p>
