@@ -6,13 +6,23 @@
     </h>
     <rh color = "[60, 60, 60]"/>
     <p>
+        Search here: 
+    </p> <br/>
+    <input margins = "[0, 5]" width = "30" id = "search" canDeploy = "1"> ... </input> 
+    <newline/>
+    <rh color = "[60, 60, 60]"/>
+    <br/>
+    <button function="getall" id="getsearch">
+        Go!
+    </button>
+    <p>
         Insert link: 
     </p> <br/>
     <input margins = "[0, 5]" width = "30" id = "link" canDeploy = "1"> ... </input> 
     <newline/>
     <rh color = "[60, 60, 60]"/>
     <br/>
-    <button function="getall" id="get">
+    <button function="getall" id="getlink">
         Go!
     </button>
     <newline/>
