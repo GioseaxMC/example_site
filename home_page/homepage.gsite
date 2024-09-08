@@ -6,7 +6,7 @@
     </h>
     <rh color = "[60, 60, 60]"/>
     <p>
-        Search here: %script.search% 
+        Search here:
     </p> <br/>
     <input margins = "[0, 5]" width = "30" id = "search" canDeploy = "1"> ... </input> 
     <newline/>
