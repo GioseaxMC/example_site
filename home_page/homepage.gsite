@@ -1,0 +1,19 @@
+<root>
+
+    <page margins = "[250, 100]" script="script.py" name = "Homepage"/>
+    <h font = "consolas" scale ="100" >
+        Welcome!
+    </h>
+    <rh color = "[60, 60, 60]"/>
+    <p>
+        Insert link: 
+    </p> <br/>
+    <input margins = "[0, 5]" width = "30" id = "link" canDeploy = "1"> ... </input> 
+    <newline/>
+    <rh color = "[60, 60, 60]"/>
+    <br/>
+    <button function="getall" id="get">
+        Go!
+    </button>
+    <newline/>
+</root>
