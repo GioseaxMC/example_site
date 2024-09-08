@@ -1,6 +1,6 @@
 <root>
 
-    <page margins = "[250, 100]" script="script.py" name = "Homepage"/>
+    <page margins = "[250, 100]" script="https://raw.githubusercontent.com/GioseaxMC/example_site/main/home_page/script.py" name = "Homepage"/>
     <h font = "consolas" scale ="100" >
         Welcome!
     </h>

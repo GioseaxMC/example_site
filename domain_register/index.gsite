@@ -1,5 +1,5 @@
 <root>
-    <page margins = "[30,10]" name = "Domain register page" script="https://raw.githubusercontent.com/GioseaxMC/example_site/main/script.py"/>
+    <page margins = "[30,10]" name = "Domain register page" script="https://raw.githubusercontent.com/GioseaxMC/example_site/main/domain_register/script.py"/>
     <h>
         Register Domains
     </h>
